@@ -4,7 +4,7 @@ from odoo import fields, models
 
 
 class CrmLeadChecklist(models.Model):
-    _name = "crm.lead.checklist"
+    _name = 'crm.lead.checklist'
     _description = "CRM Lead Checklist"
     _sql_constraints = [
         ('owner_name_uniq', 'unique (owner_id, name)', "Checklist name already exists!"),
