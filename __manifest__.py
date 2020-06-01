@@ -10,12 +10,13 @@
     'category': 'Sales/CRM',
     'description': "",
     'website': 'https://github.com/erp27/odoo_crm_checklist',
-    'depends': ['crm'],
+    'depends': ['web', 'crm'],
     'data': [
         'data/ir_sequence_data.xml',
         'security/ir.model.access.csv',
         'views/crm_lead_form_view.xml',
+        'views/checklist_views.xml',
+        'views/res_users_views.xml',
     ],
-    'qweb': [
-    ]
+    'qweb': [],
 }
