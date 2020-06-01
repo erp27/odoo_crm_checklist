@@ -8,12 +8,9 @@
             <xpath expr="//page[@name='lead']" position='after'>
                 <page name="checklist" string="Checklist">
                         <group>
-                            <field name="checklist_ids" nolabel="1">
-                                <tree>
-                                    <field name="create_date"/>
-                                    <field name="name"/>
-                                </tree>
-                            </field>
+                            <field name="checkbox_ids" widget="many2many_checkboxes"/>
+                            <field name="checkbox_count"/>
+                            <field name="total_checklist"/>
                         </group>
                     </page>
             </xpath>

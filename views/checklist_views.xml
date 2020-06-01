@@ -65,8 +65,8 @@
         <menuitem
             id="menu_crm_checklist"
             action="checklist_action_view_tree"
-            name="My Checklist"
-            parent="crm.crm_menu_sales"
-            sequence="7"/>
+            name="Checklists"
+            parent="crm.crm_config_settings_menu"
+            sequence="77"/>
     </data>
 </odoo>
