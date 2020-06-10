@@ -17,6 +17,9 @@
         'views/crm_lead_form_view.xml',
         'views/checklist_views.xml',
         'views/res_users_views.xml',
+        'views/templates.xml',
     ],
-    'qweb': [],
+    'qweb': [
+        "static/src/xml/widget_template.xml"
+    ],
 }
